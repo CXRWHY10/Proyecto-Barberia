@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DC BLOCK LAB - Consulta y Reservación</title>
+    <style>
+        .header_P {
+          background-image: url('IMG/fondo dc.jpg');
+          background-size: 510px;
+          background-position: center;
+          height: 400px;
+        }
+      </style>
+</head>
+<body>
+    <header class="header_P">
+        <nav class="header_e">
+            <a class="header_enlaces" href="Index.html">Inicio</a>
+            <a class="header_enlaces" href="sn.html">Sobre nosotros</a>
+            <a class="header_enlaces" href="cyr.html">Consulta y reservación</a>
+            <a class="header_enlaces" href="ubi.html">Ubicación</a>
+        </nav>
+    </header>
+
+    <main class="ContenidoCU">
+        <section class="seccion-consulta">
+            <h1>Encuentra tu Estilo Ideal: Guía de Cortes por Tipo de Rostro</h1>
+            <p class="introduccion-consulta">
+                Saber qué tipo de corte de cabello te favorece más es clave para resaltar tus rasgos. 
+                Aquí te ayudamos a identificar la forma de tu rostro y te sugerimos los estilos que mejor te quedarán.
+            </p>
+
+            <div class="tipos-rostro">
+                <div class="tipo-rostro-item">
+                    <img src="IMG/ovalado.jpg" alt="Rostro Ovalado">
+                    <h3>Rostro Ovalado</h3>
+                    <p>
+                        Considerado el más versátil. Cualquier corte te quedará bien.
+                    </p>
+                    <strong>Cortes Sugeridos:</strong>
+                    <ul>
+                        <li>Desvanecido (Fade)</li>
+                        <li>Pompadour</li>
+                        <li>Quiff</li>
+                        <li>Flequillo hacia arriba o de lado</li>
+                    </ul>
+                </div>
+
+                <div class="tipo-rostro-item">
+                    <img src="IMG/cuadrado.jpg" alt="Rostro Cuadrado">
+                    <h3>Rostro Cuadrado</h3>
+                    <p>
+                        Se caracteriza por una mandíbula fuerte y pómulos anchos. Busca suavizar los ángulos.
+                    </p>
+                    <strong>Cortes Sugeridos:</strong>
+                    <ul>
+                        <li>Undercut con volumen arriba</li>
+                        <li>Crew cut (corte militar)</li>
+                        <li>Flequillo lateral suave</li>
+                        <li>Estilos texturizados</li>
+                    </ul>
+                </div>
+
+                <div class="tipo-rostro-item">
+                    <img src="IMG/redondo.jpg" alt="Rostro Redondo">
+                    <h3>Rostro Redondo</h3>
+                    <p>
+                        Necesita longitud y ángulos para alargar la cara.
+                    </p>
+                    <strong>Cortes Sugeridos:</strong>
+                    <ul>
+                        <li>Quiff con altura</li>
+                        <li>Peinados con volumen en la parte superior</li>
+                        <li>Partida de lado</li>
+                        <li>Flequillo angular</li>
+                    </ul>
+                </div>
+
+                <div class="tipo-rostro-item">
+                    <img src="IMG/rectangular.jpg" alt="Rostro Rectangular">
+                    <h3>Rostro Rectangular</h3>
+                    <p>
+                        Similar al cuadrado, pero más largo. Añade volumen a los lados para equilibrar.
+                    </p>
+                    <strong>Cortes Sugeridos:</strong>
+                    <ul>
+                        <li>French crop</li>
+                        <li>Messy hair (cabello despeinado)</li>
+                        <li>Cortos con textura a los lados</li>
+                        <li>Evita mucho volumen arriba</li>
+                    </ul>
+                </div>
+
+                <div class="tipo-rostro-item">
+                    <img src="IMG/diamante.jpg" alt="Rostro Diamante">
+                    <h3>Rostro Diamante</h3>
+                    <p>
+                        Pómulos anchos y frente y mandíbula estrechos. Busca suavizar los pómulos.
+                    </p>
+                    <strong>Cortes Sugeridos:</strong>
+                    <ul>
+                        <li>Flequillos largos y texturizados</li>
+                        <li>Peinados hacia atrás (slick back)</li>
+                        <li>Undercut con volumen</li>
+                        <li>Estilos que añaden ancho a la frente o mandíbula</li>
+                    </ul>
+                </div>
+
+                <div class="tipo-rostro-item">
+                    <img src="IMG/triangular.jpg" alt="Rostro Triangular">
+                    <h3>Rostro Triangular</h3>
+                    <p>
+                        Mandíbula ancha y frente estrecha. Añade volumen en la parte superior.
+                    </p>
+                    <strong>Cortes Sugeridos:</strong>
+                    <ul>
+                        <li>Fringe (flequillo) largo</li>
+                        <li>Pompadour</li>
+                        <li>Quiff con volumen</li>
+                        <li>Estilos que ensanchan la frente</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="seccion-reservacion">
+            <h2>Agenda tu Cita en DC BLOCK LAB</h2>
+            <p>
+                ¡Estamos listos para transformar tu estilo! Usa el siguiente formulario para reservar tu servicio.
+            </p>
+            <form action="#" method="POST" class="formulario-reservacion">
+                <div class="form-grupo">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-grupo">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-grupo">
+                    <label for="telefono">Número de teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="form-grupo">
+                    <label for="servicio">Servicio deseado:</label>
+                    <select id="servicio" name="servicio" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="corte-cabello">Corte de Cabello</option>
+                        <option value="corte-barba">Arreglo de Barba</option>
+                        <option value="corte-completo">Corte + Barba</option>
+                        <option value="cuidado-facial">Cuidado Facial</option>
+                        <option value="otro">Otro (especificar en comentarios)</option>
+                    </select>
+                </div>
+                <div class="form-grupo">
+                    <label for="fecha">Fecha preferida:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                </div>
+                <div class="form-grupo">
+                    <label for="hora">Hora preferida:</label>
+                    <input type="time" id="hora" name="hora" required>
+                </div>
+                <div class="form-grupo">
+                    <label for="comentarios">Comentarios adicionales:</label>
+                    <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-reservar">Reservar Cita</button>
+            </form>
+            <p class="nota-reservacion">
+                *Nos pondremos en contacto contigo para confirmar la disponibilidad.
+            </p>
+
+            <div class="contact-info">
+                <h3>¿Preguntas? ¡Contáctanos directamente!</h3>
+                <div class="contact-links">
+                    <a href="#" id="instagram-link" class="contact-button instagram" target="_blank">Instagram</a>
+                    <a href="#" id="whatsapp-link" class="contact-button whatsapp" target="_blank">WhatsApp</a>
+                    <a href="#" id="email-link" class="contact-button email">Correo Electrónico</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
